@@ -1,0 +1,52 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.shop-container {
+	margin-top: 80px;
+	width: 100%;
+	/* background-color: aliceblue; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.product-heading {
+	margin: 30px 0 40px 0;
+	font-family: "Playfair Display", serif;
+	font-size: 35px;
+	text-align: center;
+	/* display: inline; */
+	text-transform: uppercase;
+}
+
+.product-container {
+	width: 90%;
+	/* min-height: 90vw; */
+	/* background-color: blanchedalmond; */
+	display: grid;
+	grid-template-columns: repeat(4, 23%);
+	gap: 2%;
+	justify-content: space-between;
+}
+
+.view-product {
+	background-color: #fd9c6b;
+    color: white;
+  margin-top: 30px;
+  width: 185px;
+  height: 45px;
+  border-radius: 5px;
+  font-size: 17px;
+  transition: background-color 0.2s ease;
+  border: none;
+}
+
+.view-product:hover{
+    cursor: pointer;
+    color:  #fd9c6b;
+    background-color: white;
+    border: 1px solid #fd9c6b;
+  }

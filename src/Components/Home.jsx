@@ -1,7 +1,9 @@
 import "./Home.css"
+import Shop from "./Shop";
 
 function Home(){
     return(
+        <>
         <div className="home-container">
             <img className="logo" src="/images/logo.png" alt="home" />
             <div className="home-content">
@@ -10,6 +12,8 @@ function Home(){
                 <button className="shop-now">Shop Now</button>
             </div>
         </div>
+        <Shop />
+        </>
     )
 }
 
