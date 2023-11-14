@@ -1,3 +1,4 @@
+import About from "./About";
 import "./Home.css"
 import Shop from "./Shop";
 
@@ -13,6 +14,7 @@ function Home(){
             </div>
         </div>
         <Shop />
+        <About />
         </>
     )
 }
