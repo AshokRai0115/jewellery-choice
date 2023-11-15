@@ -1,5 +1,6 @@
 import About from "./About";
 import "./Home.css"
+import Offer from "./Offer";
 import Shop from "./Shop";
 
 function Home(){
@@ -15,6 +16,7 @@ function Home(){
         </div>
         <Shop />
         <About />
+        <Offer />
         </>
     )
 }
