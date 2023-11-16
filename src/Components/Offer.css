@@ -9,12 +9,12 @@
 }
 
 .offer-content{
-    width: 98%;
+    width: 99%;
     height: auto;
     display: grid;
-    grid-template-columns: 55% 43%;
+    grid-template-columns: 57.5% 41%;
     grid-template-rows: 230px 230px;
-    gap: 2%;
+    gap: 1.5%;
     row-gap: 20px;
 }
 
@@ -40,16 +40,17 @@ figure img{
     padding: 20px;
     position: absolute;
     top: 0;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: bold;
 }
 
 .offer-description-sub1{
+    /* width: 30%; */
     padding: 20px;
     position: absolute;
     bottom: 0;
     right: 0;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -60,11 +61,26 @@ figure img{
     position: absolute;
     bottom: 0;
     left: 0;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
 }
 
-.shop-now{
-    border-radius: 0;
+
+.offer-button{
+    color:#fd9c6b;
+    width: 155px;
+    height: 45px;
+    border: 1px solid #fd9c6b;
+    font-size: 17px;
+    transition: background-color 0.2s ease;
     background-color: transparent;
-}
+    margin-top: 10px;
+  }
+  
+  .offer-button:hover{
+    cursor: pointer;
+    background-color: #fd9c6b;
+    color: white;
+    border: none;
+  }
+  

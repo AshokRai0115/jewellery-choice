@@ -1,4 +1,5 @@
 import About from "./About";
+import Blog from "./Blog";
 import "./Home.css"
 import Offer from "./Offer";
 import Shop from "./Shop";
@@ -17,6 +18,7 @@ function Home(){
         <Shop />
         <About />
         <Offer />
+        <Blog />
         </>
     )
 }
