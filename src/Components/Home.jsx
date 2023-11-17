@@ -3,6 +3,7 @@ import Blog from "./Blog";
 import "./Home.css"
 import Offer from "./Offer";
 import Shop from "./Shop";
+import Testimonials from "./Testimonials";
 
 function Home(){
     return(
@@ -19,6 +20,7 @@ function Home(){
         <About />
         <Offer />
         <Blog />
+        <Testimonials />
         </>
     )
 }
