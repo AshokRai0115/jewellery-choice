@@ -1,5 +1,6 @@
 import About from "./About";
 import Blog from "./Blog";
+import Footer from "./Footer";
 import "./Home.css"
 import Offer from "./Offer";
 import Shop from "./Shop";
@@ -21,6 +22,7 @@ function Home(){
         <Offer />
         <Blog />
         <Testimonials />
+        <Footer/>
         </>
     )
 }
