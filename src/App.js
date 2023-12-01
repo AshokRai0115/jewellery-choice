@@ -1,13 +1,22 @@
 import "./App.css"
 import Home from './Components/Home'
+import Menu from "./Components/Menu";
+import MenuBar from "./Components/MenuBar"
+import React, { useState } from 'react'
+
 
 function App(){
+  const [showMenu, setShowMenu] = useState('');
+  function returnMenuBar(menuState){
+    setShowMenu(menuState)
+  }
   return(
     <div>
-      <Home/>
+      <MenuBar onReturnMenuBar={returnMenuBar} showMenu={showMenu}/>
+      {showMenu==="show"?<Menu />:<Home/>}      
     </div>
   )
 }
 
-export default  App
+export default  App;
 
