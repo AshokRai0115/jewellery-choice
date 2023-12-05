@@ -13,7 +13,7 @@ function App(){
   return(
     <div>
       <MenuBar onReturnMenuBar={returnMenuBar} showMenu={showMenu}/>
-      {showMenu==="show"?<Menu />:<Home/>}      
+      {showMenu==="show"?<Menu showMenu={showMenu} />:<Home/>}      
     </div>
   )
 }

@@ -3,10 +3,11 @@ import './MenuBar.css'
 
 function MenuBar(props) {
     const[menu, setMenu] = useState(props.showMenu);
-    console.log(props.showMenu + "helllo")
 
     function menubarClickHandler(){
-        menu==='hide'?setMenu("show"):setMenu("hide");
+      menu==='hide'?setMenu("show"):setMenu("hide");
+      menu === 'hide'?window.history.pushState(null, null, "/menu"):window.history.pushState(null, null, "/");
+
     }
     
     props.onReturnMenuBar(menu);

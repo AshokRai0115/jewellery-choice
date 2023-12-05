@@ -7,3 +7,11 @@ span, p {
   font-size: 18px;
 }
 
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+

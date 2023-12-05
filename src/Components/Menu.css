@@ -14,14 +14,17 @@
     display: none;
 } */
 
-.menu-item{
+.menu-item {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
     transition: color 0.2s ease;
     text-decoration: none;
-    color: white;
 
+}
+
+.menu-item a{
+    color: white;
 }
 
 .menu-item:hover{

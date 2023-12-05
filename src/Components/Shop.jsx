@@ -67,6 +67,7 @@ function Shop() {
 				{products.map((product) => {
 					return (
 						<Products
+							key={product.id}
 							name={product.name}
 							tag={product.tag}
 							price={product.price}

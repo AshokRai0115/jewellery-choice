@@ -34,7 +34,7 @@ function Blog(){
             <div className='blog-content-container'>
                 {
                     blogs.map(blog=>{
-                        return <div className='blog-content'>
+                        return <div key={blog.id} className='blog-content'>
                         <img src={blog.image} alt={blog.id} />
                        <div className='blog-description'>
                          <p className='blog-date'>{blog.date}<br/>{blog.month}</p>
