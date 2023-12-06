@@ -6,28 +6,27 @@
 
 .home-container{
     width: 100vw;
-    height: 100vh;
+    height: 65vh;
     background-image: url("/public/images/slider-bg.jpg");
     background-size: cover;
+    /* background-position: 675px 54px; */
     background-position: center 0px;
     color: white;
 }
 
 .logo{
   position: relative;
-  /* left: 10px; */
   width: 200px;
   height: auto;
   margin: 30px 0 0 20px;
   object-fit: contain;
-  /* border: 1px solid; */
   
 }
 
 .home-content{
   /* border: 1px solid; */
   width: 45%;
-  height: 50%;
+  height: auto;
   position: relative;
   top: 60px;
   left: 80px;
@@ -53,15 +52,44 @@
   border: 1px solid #fd9c6b;
   border-radius: 5px;
   font-size: 17px;
-  background-color: black;
+  background-color: transparent;
   transition: background-color 0.2s ease;
 }
 
 .shop-now:hover{
   cursor: pointer;
   background-color: #fd9c6b;
-  color: white;
+  color: white; 
   border: none;
 }
 
+
+@media(max-width:700px){
+  .logo{
+    width: 115px;
+  }
+
+  .home-content{
+    left: 20px;
+    top: 115px;
+    width: 60%;
+  }
+
+
+  .home-heading{
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+  }
+  
+  .home-description{
+    font-size: 16px;
+  }
+
+  .shop-now{
+    width: 125px;
+    height: 44px;
+  }
+
+
+}
 

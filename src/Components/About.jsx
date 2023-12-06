@@ -5,7 +5,7 @@ function About() {
 		<div className="about-container">
 			<div className="inner-about-container">
 				<div className="back-style"></div>
-				<div className="about-content">
+				<div className="about-content"> 
 					<div className="about-img-container">
 						<img
 							className="about-img"

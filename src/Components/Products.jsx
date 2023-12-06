@@ -1,6 +1,6 @@
 import './Products.css';
 
-function Products(props){
+function Products(props){ 
     return(
         <div className='container'>
             <div className='img-div'>

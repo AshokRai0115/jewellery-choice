@@ -8,7 +8,7 @@ import Testimonials from "./Testimonials";
 
 function Home(){
     return(
-        <>
+        <> 
         <div className="home-container">
             <img className="logo" src="/images/logo.png" alt="home" />
             <div className="home-content">
