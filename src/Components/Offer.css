@@ -84,3 +84,27 @@ figure img{
     border: none;
   }
   
+  
+@media(max-width:450px){
+
+    .offer-content{
+        grid-template-columns: 49.5% 49.5%;
+        gap: 1%;
+        row-gap: 3px;
+    }
+
+    .offer-1{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .offer-description-main{
+        height: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+    /* .offer-button{
+        margin-top: 60px;
+    }*/
+} 
