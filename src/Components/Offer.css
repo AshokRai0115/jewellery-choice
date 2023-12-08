@@ -86,7 +86,9 @@ figure img{
   
   
 @media(max-width:450px){
-
+    .offer-container{
+        height: auto;
+    }
     .offer-content{
         grid-template-columns: 49.5% 49.5%;
         gap: 1%;

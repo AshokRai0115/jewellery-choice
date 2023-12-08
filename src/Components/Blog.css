@@ -5,7 +5,7 @@
 
 .blog-container{
     margin-top: 20px;
-    margin-left: auto;
+    margin-left: auto; 
     margin-right: auto;
     width: 89vw;
     height: 110vh;
@@ -92,4 +92,34 @@
 	cursor: pointer;
 	color: white;
 	background-color: black;
+}
+
+@media(max-width: 450px){
+    p{
+        font-size: 16px;
+
+    }
+
+    .blog-heading{
+        height: 6%;
+    }
+
+    .blog-content-container{
+        height: 90%;
+        background-color: azure;
+
+    }
+    .blog-content{
+        height: 49%;
+        width: 100%;
+    }
+
+
+    .blog-description{
+        height: auto;
+    }
+
+    .blog-read-more{
+        margin-top: 10px;
+    }
 }

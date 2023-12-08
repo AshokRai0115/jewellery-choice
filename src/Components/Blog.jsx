@@ -17,15 +17,7 @@ function Blog(){
             month: "Jan",
             title: "Moly Holy Brings new Indian Bangle",
             content: "alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
-        },
-        // {
-        //     id:2,
-        //     image: "/images/b1.jpg",
-        //     date: 14,
-        //     month: "July",
-        //     title: "Moly Holy Brings new Indian Bangle",
-        //     content: "alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
-        // },
+        }
 
     ]
     return(
