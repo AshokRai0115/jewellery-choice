@@ -75,8 +75,13 @@
 
 
 @media (max-width:450px){
+
+	.about-container{
+		margin-top: 0;
+		margin-bottom: 40px;
+	}
 	.inner-about-container{
-		height: 560px;
+		height: 500px;
 	}
 
 	.back-style{
@@ -85,7 +90,7 @@
 
 	.about-content {
 		width: 100%;
-		height: 90%;
+		height: 100%;
 		position: relative;
 		top: 0;
 		left: 0;
@@ -96,6 +101,7 @@
 	.about-img-container{
 		background-color: rgb(13, 23, 23);
 		width: 100%;
+		height: 50%;
 	}
 
 	.about-img{
@@ -104,15 +110,13 @@
 
 	.content{
 		width: 100%;
-		height: 500px;
+		height: 48%;
 		display: flex;
 		flex-flow: column;
-		justify-content: space-around;
-		/* background-color: antiquewhite; */
+		justify-content: space-between;
 	}
 
 	.content>p, .content>h3{
-		padding: 0 10px;
 		margin: 0;
 	}
 

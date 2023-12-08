@@ -100,12 +100,20 @@
 
     }
 
+    .blog-container{
+        margin-top: 0;
+        margin-bottom: 40px;
+        height: auto;
+
+
+    }
+
     .blog-heading{
-        height: 6%;
+        height: 95px;
     }
 
     .blog-content-container{
-        height: 90%;
+        height: 900px;
         background-color: azure;
 
     }

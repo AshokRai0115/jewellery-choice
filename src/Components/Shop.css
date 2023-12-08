@@ -48,9 +48,13 @@
 
 
 @media(max-width:450px) {
+
+	.product-heading{
+		margin: 0px 0px 10px 0px;
+	}
 	.shop-container{
-		overflow-x: hidden;
 		width: 100%;
+		margin: 40px 0px ;
 
 	}
 	.product-container{
@@ -58,5 +62,9 @@
 	/* width: 100%; */
 
 	gap: 0%;
+	}
+
+	.view-product{
+		margin-top: 0;
 	}
 }
