@@ -7,7 +7,6 @@
 .shop-container {
 	margin: 80px 0 80px 0;
 	width: 100%;
-	/* background-color: aliceblue; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -18,18 +17,14 @@
 	font-family: "Playfair Display", serif;
 	font-size: 35px;
 	text-align: center;
-	/* display: inline; */
 	text-transform: uppercase;
 }
 
 .product-container {
 	width: 90%;
-	/* min-height: 90vw; */
-	/* background-color: blanchedalmond; */
 	display: grid;
 	grid-template-columns: repeat(4, 23%);
 	gap: 2%;
-	justify-content: space-between;
 }
 
 .view-product {
@@ -50,3 +45,18 @@
     background-color: white;
     border: 1px solid #fd9c6b;
   }
+
+
+@media(max-width:450px) {
+	.shop-container{
+		overflow-x: hidden;
+		width: 100%;
+
+	}
+	.product-container{
+		grid-template-columns: 1fr;
+	/* width: 100%; */
+
+	gap: 0%;
+	}
+}
