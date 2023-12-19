@@ -20,11 +20,11 @@
 }
 
 .menubar-container.show{
-    background-color: transparent;
+    background-color: black;
+    opacity: 60%;
 }
 
 .menubar-item-container{
-    /* background-color: aqua; */
     width: 80%;
     height: 60%;
     display: flex;
@@ -39,24 +39,23 @@
     border: none;
     border-radius: 2px;
     background-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .bar-1.show{
     transform: rotate(45deg) translate(0.3em , 0.24em);
-    background-color: rgb(229, 0, 0);
+    background-color: rgb(225, 214, 214);
     
 
 }
 .bar-2.show{
     transform: rotate(136deg) translate(-0.29em , 0.25em);
-    background-color: rgb(91, 0, 0);
-
-    
+    background-color: rgb(225, 214, 214); 
 
 }
 .bar-3.show{
     display: none;
-    
 }
 
 

@@ -2,18 +2,20 @@
 
 
 .offer-container{
+	margin-top: 80px;
     width: 100%;
-    height: 90vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
+
 }
 
 .offer-content{
-    width: 99%;
+    width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: 57.5% 41%;
-    grid-template-rows: 230px 230px;
+    grid-template-rows: 240px 240px;
     gap: 1.5%;
     row-gap: 20px;
 }
@@ -45,7 +47,6 @@ figure img{
 }
 
 .offer-description-sub1{
-    /* width: 30%; */
     padding: 20px;
     position: absolute;
     bottom: 0;
@@ -92,7 +93,7 @@ figure img{
     }
     .offer-content{
         grid-template-columns: 49.5% 49.5%;
-        grid-template-rows: 230px 200px;
+        grid-template-rows: 230px 180px;
 
         gap: 1%;
         row-gap: 3px;
@@ -109,7 +110,10 @@ figure img{
         flex-flow: column wrap;
         justify-content: space-between;
     }
-    /* .offer-button{
-        margin-top: 60px;
-    }*/
+
+    .offer-description-sub2, .offer-description-sub1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+ 
 } 

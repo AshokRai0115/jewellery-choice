@@ -20,7 +20,6 @@
 .img-div{
     width: 50%;
     height: 50%;
-    /* border: 1px solid black; */
     display: flex;
     flex-flow: column ;
     align-items: center;

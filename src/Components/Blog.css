@@ -4,7 +4,7 @@
 }
 
 .blog-container{
-    margin-top: 20px;
+    margin-top: 80px;
     margin-left: auto; 
     margin-right: auto;
     width: 89vw;
@@ -17,7 +17,7 @@
 
 
 .blog-heading{
-	height: 15%;
+	height: 10%;
     font-family: "Playfair Display", serif;
 	font-size: 35px;
 	text-transform: uppercase;
