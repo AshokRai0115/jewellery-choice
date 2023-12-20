@@ -1,1 +1,1 @@
-It is a simple website for a jewellery shop.
+It is a simple React website for a jewellery shop.
